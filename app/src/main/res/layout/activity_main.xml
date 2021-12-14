@@ -116,6 +116,41 @@
 
             </LinearLayout>
         </HorizontalScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/New"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="24dp"
+            android:textSize="24dp"
+            android:textColor="@color/orang"
+            android:textStyle="bold"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pb1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pb3" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
 
     </LinearLayout>
 
