@@ -23,6 +23,14 @@ class Signin : AppCompatActivity() {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
+
+        val btnup: FrameLayout
+        btnup = findViewById(R.id.Signin)
+
+        btnup.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
